@@ -16,7 +16,7 @@ public class User extends BraveSoul
     }
 
     @Override
-    public void fightZombieHorde(BraveSoul bs)
+    public void fightTigerHorde(BraveSoul bs)
     {
          String info = this.name+" "+bs.getName();
         //int intHitPoint=0;

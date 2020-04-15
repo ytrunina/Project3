@@ -7,8 +7,8 @@ public class Main {
     public static void welcome()
     {
         System.out.println("Welcome to this game!");
-        System.out.println("It is an endless wave of zombie hordes, and they are trying to kill you!");
-        System.out.println("I see the first zombies coming!");
+        System.out.println("It is an endless wave of vicious tigers, and they are trying to kill you!");
+        System.out.println("I see the first tigers coming now!");
         System.out.println("Be careful and good luck!\n");
     }//end of welcome
 
@@ -22,7 +22,7 @@ public class Main {
         welcome();
         Random random = new Random();
         Attack fight1 = new Attack();
-        fight1.fightZombieHorde();
+        fight1.fightTigerHorde();
         thankYou();
     }// end of main
 }

@@ -9,7 +9,7 @@ public abstract class BraveSoul
     protected double hitPoints;
 
     public abstract String printString();
-    public abstract void fightZombieHorde(BraveSoul bs);
+    public abstract void fightTigerHorde(BraveSoul bs);
 
     public boolean isAlive()
     {
